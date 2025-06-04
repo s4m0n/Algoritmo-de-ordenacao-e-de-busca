@@ -78,4 +78,4 @@ if __name__ == "__main__":
     for nota in notas_faixa:
         aluno = next(a for a in alunos if a['id'] == nota['aluno_id'])
         print(f"{aluno['nome']}: {nota['valor']}")
- C
+ D
